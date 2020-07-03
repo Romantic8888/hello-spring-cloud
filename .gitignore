@@ -1,0 +1,25 @@
+/.settings/
+/.project
+*.project
+*.classpath
+*.gitignore
+.gitignore
+*/.settings/
+ics-parent/
+*/src/main/webapp/
+
+
+
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.log
+/vcs.xml
+
+target/
+
+/.metadata/
+/.DS_Store
