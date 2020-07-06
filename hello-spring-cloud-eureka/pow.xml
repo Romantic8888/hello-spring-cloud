@@ -6,7 +6,7 @@
         <groupId>com.funtl</groupId>
         <artifactId>hello-spring-cloud-dependencies</artifactId>
         <version>1.0.0-SNAPSHOT</version>
-        <relativePath>../hello-spring-cloud-dependencies/pom.xml</relativePath>
+        <relativePath/>
     </parent>
     <artifactId>hello-spring-cloud-eureka</artifactId>
     <packaging>jar</packaging>
@@ -21,7 +21,6 @@
             <scope>test</scope>
         </dependency>
         <!--Spring Boot End-->
-
         <!--Spring Boot Begin-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
