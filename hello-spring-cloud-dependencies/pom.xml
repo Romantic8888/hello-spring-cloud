@@ -52,7 +52,7 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <configuration>
                     <archive>
-                        <addMavenDescriport>false</addMavenDescriport>
+                        <addMavenDescriptor>false</addMavenDescriptor>
                     </archive>
                 </configuration>
                 <executions>
