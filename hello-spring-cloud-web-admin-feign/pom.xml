@@ -46,6 +46,11 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
+        <!--熔断监视器 feign自带熔断器hystrix-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
+        </dependency>
         <!--Spring Boot End-->
         <!-- 解决thymeleaf模版引擎一定要执行严格的html5格式校验问题-->
         <dependency>
