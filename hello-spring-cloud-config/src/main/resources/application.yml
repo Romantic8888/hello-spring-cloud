@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: hello-spring-cloud-config
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/Romantic8888/spring-cloud-config
+          search-paths: respo
+          username: Romantic8888
+          password: ls15939123053
+##### 默认端口8888，如果需要更改 需要新建一个bootstrap.properties(因为项目启动优先加载这个文件),新建属性 server.port=新的端口
+server:
+  port: 8888
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
