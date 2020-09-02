@@ -6,8 +6,6 @@ spring:
       name: web-admin-feign
       label: master
       profile: prod
-  zipkin:
-    base-url: http://localhost:9411
 
 
 #spring:
