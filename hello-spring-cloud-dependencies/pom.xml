@@ -24,6 +24,7 @@
 
         <!--Spring Setting-->
         <spring-cloud.version>Hoxton</spring-cloud.version>
+        <spring-boot-admin.version>2.3.0</spring-boot-admin.version>
         <zipkin.version>2.10.1</zipkin.version>
     </properties>
     <dependencyManagement>
@@ -49,6 +50,11 @@
                 <groupId>io.zipkin.java</groupId>
                 <artifactId>zipkin-autoconfigure-ui</artifactId>
                 <version>${zipkin.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-starter-server</artifactId>
+                <version>${spring-boot-admin.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
