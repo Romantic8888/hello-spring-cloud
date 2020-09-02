@@ -18,7 +18,7 @@ spring:
 #    servlet:
 #      content-type: text/html
 #server:
-#  port: 8765
+#  port: 8766
 #eureka:
 #  client:
 #    service-url:
