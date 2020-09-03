@@ -15,6 +15,10 @@ spring:
 #          password: lu13507649289
   zipkin:
     base-url: http://localhost:9411
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
 ##### 默认端口8888，如果需要更改 需要新建一个bootstrap.properties(因为项目启动优先加载这个文件),新建属性 server.port=新的端口
 server:
   port: 8888
